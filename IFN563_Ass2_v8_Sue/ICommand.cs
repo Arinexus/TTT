@@ -2,12 +2,12 @@
 using System.IO;
 namespace BoardGame
 {
-    public interface ICommond
+    public interface ICommand
     {
         public void Execute();
     }
 
-    public class MoveCommond : ICommond
+    public class MoveCommond : ICommand
 
     {
 
@@ -16,7 +16,7 @@ namespace BoardGame
 
         }
     }
-    public class UndoCommond : ICommond
+    public class UndoCommond : ICommand
 
     {
 
@@ -25,7 +25,7 @@ namespace BoardGame
 
         }
     }
-    public class RedoCommond : ICommond
+    public class RedoCommond : ICommand
 
     {
 
@@ -34,7 +34,7 @@ namespace BoardGame
 
         }
     }
-    public class SaveCommond : ICommond
+    public class SaveCommond : ICommand
 
     {
 
@@ -43,13 +43,21 @@ namespace BoardGame
 
         }
     }
-    public class LoadCommond : ICommond
+    public class LoadCommond : ICommand
 
     {
 
         public void Execute()
         {
 
+        }
+    }
+    public class QuitGame : ICommand
+    {
+        public void Execute()
+        {
+            Console.WriteLine("Thank you for playing");
+            Environment.Exit(0);
         }
     }
 }

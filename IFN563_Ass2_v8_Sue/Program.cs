@@ -554,10 +554,12 @@ namespace BoardGame
                 }
                 else if (move == 'L')
                 {
+
                 }
                 else if (move == 'Q')
                 {
-                    OnlineHelp.QuitGame();
+                    ICommand exitGame = new QuitGame();
+                    exitGame.Execute();
                 }
 
                 else
@@ -901,7 +903,8 @@ namespace BoardGame
                     break;
                 case 4:
                     {
-                        QuitGame();
+                        ICommand exitCommand = new QuitGame();
+                        exitCommand.Execute();
                     }
                     break;
             }
@@ -915,11 +918,6 @@ namespace BoardGame
             Console.ReadKey(true);
             Console.Clear();
             Program.Main();
-        }
-        public static void QuitGame()
-        {
-            Console.WriteLine("Thank you for playing");
-            Environment.Exit(0);
         }
     }
 }
