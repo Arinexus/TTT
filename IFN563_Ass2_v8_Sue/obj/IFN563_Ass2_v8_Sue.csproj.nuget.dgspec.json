@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arinning/Desktop/Y2S1/IFN563/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj": {}
+    "/Users/arinning/Documents/GitHub/TTT/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj": {}
   },
   "projects": {
-    "/Users/arinning/Desktop/Y2S1/IFN563/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj": {
+    "/Users/arinning/Documents/GitHub/TTT/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arinning/Desktop/Y2S1/IFN563/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj",
+        "projectUniqueName": "/Users/arinning/Documents/GitHub/TTT/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj",
         "projectName": "IFN563_Ass2_v8_Sue",
-        "projectPath": "/Users/arinning/Desktop/Y2S1/IFN563/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj",
+        "projectPath": "/Users/arinning/Documents/GitHub/TTT/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue.csproj",
         "packagesPath": "/Users/arinning/.nuget/packages/",
-        "outputPath": "/Users/arinning/Desktop/Y2S1/IFN563/IFN563_Ass2_v8_Sue/IFN563_Ass2_v8_Sue/obj/",
+        "outputPath": "/Users/arinning/Documents/GitHub/TTT/IFN563_Ass2_v8_Sue/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arinning/.nuget/NuGet/NuGet.Config"
